@@ -14,3 +14,41 @@ what would happen if you ran:
 console.log((typeof a !== 'undefined'));
 console.log((typeof b !== 'undefined'));
 ```
+
+2. What would each of the following functions return and why?
+```javascript
+function foo1()
+{
+  return {
+      bar: "hello"
+  };
+}
+
+function foo2()
+{
+  return
+  {
+      bar: "hello"
+  };
+}
+```
+
+3. What will be the output of each of the following console.logs?
+```javascript
+console.log(0.1 + 0.2);
+console.log(0.1 + 0.2 == 0.3);
+```
+
+4. What order will the following numbers log to the console when this IIFE is run?
+```javascript
+(function() {
+    console.log(1); 
+    setTimeout(function(){console.log(2)}, 1000); 
+    setTimeout(function(){console.log(3)}, 0); 
+    console.log(4);
+})();
+```
+
+## Resources
+-(36 Essential JavaScript Interview Questions)[https://www.toptal.com/javascript/interview-questions]
+-
