@@ -50,5 +50,8 @@ console.log(0.1 + 0.2 == 0.3);
 ```
 
 ## Resources
--(36 Essential JavaScript Interview Questions)[https://www.toptal.com/javascript/interview-questions]
--
+- [36 Essential JavaScript Interview Questions](https://www.toptal.com/javascript/interview-questions) (Answers located here)
+- [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
+- [How to Deal with Floating Point Precision in JavaScript](https://stackoverflow.com/questions/1458633/how-to-deal-with-floating-point-number-precision-in-javascript)
+- [JavaScript Use Strict](https://www.w3schools.com/js/js_strict.asp)
+
