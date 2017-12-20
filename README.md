@@ -3,44 +3,41 @@
 Test your JavaScript knowledge with these brain teasers. Discuss the code with your table and explain what you think will happen before running in console.
 
 1. Given the following **immediately-invoked function expression**...
-```javascript
+```
 (function(){
   var a = b = "sea";
 })();
 ```
 what would happen if you ran:
 
-```javascript
+```
 console.log((typeof a !== 'undefined'));
 console.log((typeof b !== 'undefined'));
 ```
 
 2. What would each of the following functions return and why?
-```javascript
-function foo1()
-{
+```
+function foo1() {
   return {
-      bar: "hello"
+     bar: "hello"
   };
 }
 
-function foo2()
-{
-  return
-  {
-      bar: "hello"
+function foo2() {
+  return {
+     bar: "hello"
   };
 }
 ```
 
 3. What will be the output of each of the following console.logs?
-```javascript
+```
 console.log(0.1 + 0.2);
 console.log(0.1 + 0.2 == 0.3);
 ```
 
 4. What order will the following numbers log to the console when this IIFE is run?
-```javascript
+```
 (function() {
     console.log(1); 
     setTimeout(function(){console.log(2)}, 1000); 
